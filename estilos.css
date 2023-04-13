@@ -1,0 +1,130 @@
+/* Fuentes tipográficas*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+/* Diseño General */
+body {
+    font-family: 'Signika Negative', 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+/* Encabezado */
+header{
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background-color: #C43302;
+    background-image: url(resources/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header > h1 {
+    font-size: 3em;
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    text-align: center;
+}
+
+header > h2 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+/* Navegación */
+nav > ul { 
+    margin: 0;
+    background-color: #1E74B2;
+    text-align: center;
+}
+
+nav > ul > li{
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav > ul > li:hover{
+    background-color: #B4CF66;
+    
+}
+
+nav > ul > li > a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Notificación */
+div#notificacion {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    background-color: #F2B84B;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Cuerpo Principal*/
+
+main{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 238, 238);
+    padding-top: 30px;
+}
+
+/* Sección catálogo*/
+section#catalogo{
+    text-align: center;
+}
+
+/* Artículos*/
+article{
+    max-width: 260px;
+    display: inline-block;
+    min-width: 200px;
+    width: 24%;
+    display: inline-block;
+    margin: 8px;
+    border: 2px #cccca6 solid;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: content-box;
+}
+
+/* Imágenes */
+.imgProduct{
+    width: 100%;
+}
+
+/*Precios*/
+.precioOriginal{
+    font-size: 1.1em;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.precioDescuento{
+    font-size: 0.9em;
+    color: black;
+}
+
+.precioFinal{
+    font-size: 1.5em;
+    color: red;
+    text-decoration: solid;
+    font-weight: 700;
+    line-height: 1.4em;
+}

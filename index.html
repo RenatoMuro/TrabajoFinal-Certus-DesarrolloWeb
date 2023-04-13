@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!--Cargar la librería Boostrap-->
+
+    <title>Catalogo Triple Hash</title>
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header class="text-white bg-danger text-center p-4">
+        <h1>Triple Hash</h1> <!--Título 1-->
+        <h2>Seguridad, calidad, garantía</h2> <!--Título 2-->
+    </header>
+
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">¿Quienes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contáctenos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button type="button" class="btn btn-success btn-outline-light" data-bs-toggle="modal" data-bs-target="#ventanaCarrito">Carrito de compra</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ventana de carrito -->
+    <div id="ventanaCarrito" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Su carrito de compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Su carrito está vacío</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Limpiar</button>
+                    <button type="button" class="btn btn-primary">Finalizar compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notificación -->
+    <div id="notificacion" class="bg-warning text-center">Venta de productos catalogo de Marzo 2023</div>
+
+    <!--Parte Principal-->
+    <main class="container">
+
+        <!--Seccion de catalogo-->
+        <section id="catalogo" class="row">
+
+            <!--Artículo 01-->
+            <article class="col-3">
+                <h3>Samsung Galaxy A73 5G 128GB 8GB - Colores</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/2a0d247d000ca21461c627fba8ba22f5-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 3,499.00</span>
+                    <spa class="precioDescuento"> - 45%</span>
+                        <br><span class="precioFinal">S/ 1,899.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 02-->
+            <article class="col-3">
+                <h3>Celular Samsung Galaxy-A13 Negro</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/4dcb21a30e0f3c8425548bf7c507ef40-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 799.00</span>
+                    <spa class="precioDescuento"> - 25%</span>
+                        <br><span class="precioFinal">S/ 599.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 03-->
+            <article class="col-3">
+                <h3>Samsung Galaxy S20 Fe SM-G781U1/DS 6+128GB - Rosa</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/21b79ff6e0cb6c9269a24453c853e020-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 2,099.00</span>
+                    <spa class="precioDescuento"> - 57%</span>
+                        <br><span class="precioFinal">S/ 899.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 04-->
+            <article class="col-3">
+                <h3>Samsung Galaxy S10 Plus SM-G975U 128GB Negro Single SIM</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/046c6821b53fb8cdbeb2f8c9ab2d5f4a-catalog (1).webp"
+                        alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 2,459.00</span>
+                    <spa class="precioDescuento"> - 63%</span>
+                        <br><span class="precioFinal">S/ 899.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 05-->
+            <article class="col-3">
+                <h3>Samsung Galaxy S10 Plus SM-G975U 128GB Negro Single SIM</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/046c6821b53fb8cdbeb2f8c9ab2d5f4a-catalog (1).webp"
+                        alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 1,629.00</span>
+                    <spa class="precioDescuento"> - 45%</span>
+                        <br><span class="precioFinal">S/ 889.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 06-->
+            <article class="col-3">
+                <h3>Samsung Galaxy S20 Ultra SM-G988U 128GB Negro</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/385aee53fa941395dbd0b1054e7c34e3-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 2,629.00</span>
+                    <spa class="precioDescuento"> - 23%</span>
+                        <br><span class="precioFinal">S/ 1,999.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 07-->
+            <article class="col-3">
+                <h3>Samsung Galaxy S10 Plus SM-G975U 128GB Azul</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/0006927db2843fa42cb86b9608a3a0b0-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 2,459.00</span>
+                    <spa class="precioDescuento"> - 63%</span>
+                        <br><span class="precioFinal">S/ 899.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 08-->
+            <article class="col-3">
+                <h3>Samsung Galaxy A22 64GB 4GB Negro</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/c79af02479b6c732e568b31d10221a7f-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 1,029.00</span>
+                    <spa class="precioDescuento"> - 40%</span>
+                        <br><span class="precioFinal">S/ 615.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 09-->
+            <article class="col-3">
+                <h3>Samsung Galaxy S10 Plus SM-G975U 128GB Verde Single SIM</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/d6d352211153a05ebe5f44b6d40dcf3c-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 1,699.00</span>
+                    <spa class="precioDescuento"> - 47%</span>
+                        <br><span class="precioFinal">S/ 889.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 10-->
+            <article class="col-3">
+                <h3>Samsung Galaxy A22 64GB 4GB Negro</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/f013d06980173c20a841e56753284ecc-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 1,049.00</span>
+                    <spa class="precioDescuento"> - 20%</span>
+                        <br><span class="precioFinal">S/ 839.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 11-->
+            <article class="col-3">
+                <h3>Samsung Galaxy S10 Plus SM-G975U 128GB Blanco Single SIM</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/f40ce670beca139a0be4dcfa872feed1-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 1,699.00</span>
+                    <spa class="precioDescuento"> - 47%</span>
+                        <br><span class="precioFinal">S/ 889.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+            <!--Artículo 12-->
+            <article class="col-3">
+                <h3>Galaxy A23 128GB 4GB negro</h3>
+                <picture>
+                    <img class="img-fluid" src="resources/f40ce670beca139a0be4dcfa872feed1-catalog.webp" alt="Celular">
+                </picture>
+
+                <p>
+                    <span class="precioOriginal">S/ 1,029.00.00</span>
+                    <spa class="precioDescuento"> - 40%</span>
+                        <br><span class="precioFinal">S/ 615.00</span>
+                </p>
+
+                <button class="btn btn-secondary">Agregar al carrito</button>
+                <p></p>
+            </article>
+
+
+        </section>
+    </main>
+
+    <footer>
+        Renato Muro 2023
+    </footer>
+
+
+    <!-- Cargando funciones de Boostrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Javascript personalizado -->
+    <script src="custom.js"></script>
+
+</body>
+
+</html>

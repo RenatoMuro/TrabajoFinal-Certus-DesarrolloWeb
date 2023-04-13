@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1 style ="font-size: 2em; color: tomato">Triple Hash</h1> <!--Título 1-->
+        <h2>Seguridad, calidad, garantía</h2> <!--Título 2-->
+    </header>
+
+    <p>Ventas de productos catalogo Marzo 2023</p>
+
+    <!--Navigation-->
+    <nav>
+        <p><a href="idex.html">Volver atrás</a> <!--Anchor (a)-->
+    </nav>
+
+    <!--Cuerpo Principal-->
+    <main>
+
+        <!--Formulario de contacto-->
+        <section id="formContrato">
+
+            <h3>Escríbenos ahora.</h3>
+
+            <!--Input / Entradas de valor-->
+            <form action="ContactoRegistro.html" method="post">
+                <div>
+                    <label for="txtNombre">Ingrese su nombre:</label>
+                    <input type="text" name="txtNombre" id="txtNombre" maxlength="50" required>
+                </div>
+
+                <div>
+                    <label for="txtApellido">Ingrese su apellido:</label>
+                    <input type="text" name="txtApellido" id="txtApellido" autocomplete="off" maxlength="54" required>
+                </div>
+
+                <div>
+                    <label for="txtEmail">Ingrese su correo electronico:</label>
+                    <input type="email" name="txtEmail" id="txtEmail" autocomplete="off" maxlength="128">
+                </div>
+
+                <div>
+                    <label for="numPhone">Ingrese su teléfono o celular:</label>
+                    <input type="tel" name="numPhone" id="numPhone" maxlength="13" minlength="7">
+                </div>
+
+                <!--Selección de valor-->
+                <div>
+                    <label for="txtAsunto">Seleccione una opción</label>
+                    <select name="txtAsunto" id="txtAsunto" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="CompraMayor">Comprar productos por mayor</option>
+                        <option value="ConsultaDevolucion">Consulta para devolución de producto</option>
+                        <option value="ConsultaGeneral">Hacer consulta general</option>
+                    </select>
+                </div>
+
+                <!-- Text Area / Cuerpo de texto-->
+                <div>
+                    <label for="bodyDetalle">Ingrese su detalle</label>
+                    <textarea name="bodyDetalle" id="bodyDetalle" cols="30" rows="8" required></textarea>
+                </div>
+
+                <!-- Input Checkbox -->
+                <div>
+                    <input type="checkbox" name="bolAutorizo" id="bolAutorizo" required>
+                    <label for="bolAutorizo">Autorizo el envío de publicidad e información comercial</label>
+                </div>
+                <!-- Input Submit / Botón de enviar -->
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
+        </section>
+
+        <!--Datos de contacto-->
+        <section id="Ubícanos">
+            <p>
+                Av. Los Alamos de Punta Hermosa<br>
+                Pachacamac - Lima - Perú
+            </p>
+            <p>Teléfono: 01 680 9999 / 999 555 555</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4642.357537493699!2d-77.05033991091258!3d-11.923047917262425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d04ef9cf494f%3A0xdbc346faadb6d128!2sClub%20Zonal%20Sinchi%20Roca!5e0!3m2!1ses-419!2spe!4v1679891000780!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+
+        </section>
+    </main>
+
+</body>
+</html>
